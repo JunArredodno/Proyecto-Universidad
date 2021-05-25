@@ -1,0 +1,18 @@
+//Registro
+
+var user, contra;
+
+function registro(user, contra){
+	prompt('Por favor ingresa su nombre de usuario:');
+	prompt('Por favor ingrese su contraseña:');
+	return callback(user,contra);
+}
+
+fuction aviso(user, contra (callback) =>{
+	if(user=="" && contra==""){
+		alert('Usuario no registrado);
+	}else{
+		alert('Bienvenido '+user);
+});
+
+

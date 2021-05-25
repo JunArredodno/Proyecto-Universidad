@@ -1,0 +1,69 @@
+body{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0px;
+}
+
+#header{
+    width: 100%;
+    height: 155px;
+    background-color: white;
+    border-bottom: 5px solid yellow;
+    border-top: 1px solid red;
+}
+
+#logo{
+    width: 40%;
+    font-size: 30px;
+    float: left; 
+    margin-top: 15px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#logo img{
+    display: block;
+    float: left;
+    height: 120px;
+}
+
+#brand{
+    display: block;
+    color: black; /* Esto es el color de las palabras al lado del 
+    logo universitario*/
+    float: left;
+    margin-top: 40px;
+}
+
+#Menu{
+    width: 80%;
+    float: right;
+    font-size: 20px; /*El tamaño de los submenus*/
+}
+
+#Menu ul{
+    line-height: 7px;
+    width: 55%; /*La dispocicion (Ubicacion en X) de los submenus*/
+    float: right;
+    margin-top: -56px;
+}
+
+#Menu ul li{
+    display: inline-block;
+    list-style: none;
+    height: 45px;
+    margin-left: 10px;
+    margin-right: 10px; /*La separacion de los submenus*/
+}
+
+#Menu a{
+    text-decoration: none;
+    color: black; /*El color de las palabras de los submenus*/
+}
+
+#content{
+    width: 70%;
+    float: left;
+    min-height: 450px;
+    margin-right: 20px;
+}

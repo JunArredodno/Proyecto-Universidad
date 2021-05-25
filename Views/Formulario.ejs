@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <nav id="Menu">
+        <ul>
+            <li>
+                <a href="/">Home</a>
+            </li>
+            <li>
+                <a href="!">!</a>
+            </li>
+            <li>
+                <a href="#">#</a>
+            </li>
+            <li>
+                <a href="$">$</a>
+            </li>
+            <li>
+                <a href="%">%</a>
+            </li>
+        </ul>
+    </nav>
+</head>
+<body>
+    <section id="content">
+        <h2>Formulario</h2>
+        <p align="center">
+            <form action="/add" method="POST">
+                <p align="center">
+                    <label for="Nombres"></label>
+                    <input type="text" name="nombre" placeholder="Nombre completo">
+                    <br>                
+                    <br>
+                    <label for="Contacto"></label>
+                    <input type="text" name="telefono" placeholder="Numero de contacto">
+                    <br>
+                    <br>               
+                    <label for="Comentarios"></label>
+                    <textarea name="comentario" id="" cols="30" rows="10" placeholder="Comentarios"></textarea>
+                </p>
+                <p align="center">
+                    <input type="submit" value="Enviar" class="btn btn-success">
+                </p>
+                <%= mensaje %>
+            </form>
+        </p>
+    </section>
+</body>
+</html>
