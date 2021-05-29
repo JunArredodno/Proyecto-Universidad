@@ -34,7 +34,7 @@ app.get('/', function(req,res){
 mongoose.Promise = global.Promise;
 
 //configurar promise para las promesas
-mongoose.connect("mongodb://JuanE:12345@cluster0-shard-00-00.dr5py.mongodb.net:27017,cluster0-shard-00-01.dr5py.mongodb.net:27017,cluster0-shard-00-02.dr5py.mongodb.net:27017/myFirstDatabase?ssl=true&replicaSet=atlas-uh1eu6-shard-0&authSource=admin&retryWrites=true&w=majority",
+mongoose.connect("mongodb+srv://JuanE:12345@cluster0.dr5py.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
 {
     useNewUrlParser: true, useUnifiedTopology: true
 }).then(()=>{
