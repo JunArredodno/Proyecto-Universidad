@@ -34,7 +34,8 @@ app.get('/', function(req,res){
 mongoose.Promise = global.Promise;
 
 //configurar promise para las promesas
-mongoose.connect("mongodb+srv://JuanE:12345@cluster0.dr5py.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",{
+mongoose.connect("mongodb+srv://JuanE:12345@cluster0.dr5py.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+{
     useNewUrlParser: true, useUnifiedTopology: true
 }).then(()=>{
     console.log('La conexion a mongoAtlas se hizo correctamente..');
